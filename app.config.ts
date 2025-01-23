@@ -51,7 +51,7 @@ function blobRewriter() {
             window.Blob = function(array, options) {
               if (options.type === "text/javascript") {
                 array = array.map(item => {
-                  return item.replace("https://qrframe.kylezhe.ng", "http://localhost:3000");
+                  return item.replace("https://gm-qrframe.vercel.app", "http://localhost:3000");
                 });
               }
               return new originalBlob(array, options);
