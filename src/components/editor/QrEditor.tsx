@@ -289,8 +289,8 @@ export function Editor(props: Props) {
   return (
     <div class={props.class}>
       <TextareaInput
-        placeholder="https://qrframe.kylezhe.ng"
-        setValue={(s) => setInputQr("text", s || "https://qrframe.kylezhe.ng")}
+        placeholder="https://gm-qrframe.vercel.app"
+        setValue={(s) => setInputQr("text", s || "https://gm-qrframe.vercel.app")}
         onFocus={props.onTextFocus}
         onBlur={props.onTextBlur}
         ref={props.textRef}
