@@ -1,4 +1,4 @@
-import { Module, getSeededRand } from "https://gm-grframe.vercel.app/utils.js";
+import { Module, getSeededRand } from "https://gm-qrframe.vercel.app/utils.js";
 import rough from "https://esm.sh/roughjs";
 
 export const paramsSchema = {

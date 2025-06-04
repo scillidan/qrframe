@@ -1,6 +1,6 @@
 // Based on QRBTF's Line style
 // https://github.com/CPunisher/react-qrbtf/blob/master/src/components/QRLine.tsx
-import { Module, getSeededRand } from "https://gm-grframe.vercel.app/utils.js";
+import { Module, getSeededRand } from "https://gm-qrframe.vercel.app/utils.js";
 
 export const paramsSchema = {
   Margin: {

@@ -1,6 +1,6 @@
 // Based on QRBTF's DSJ style
 // https://github.com/CPunisher/react-qrbtf/blob/master/src/components/QRDsj.tsx
-import { Module } from "https://gm-grframe.vercel.app/utils.js";
+import { Module } from "https://gm-qrframe.vercel.app/utils.js";
 
 export const paramsSchema = {
   Margin: {

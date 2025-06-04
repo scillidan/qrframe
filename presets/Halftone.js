@@ -1,4 +1,4 @@
-import { Module } from "https://gm-grframe.vercel.app/utils.js";
+import { Module } from "https://gm-qrframe.vercel.app/utils.js";
 
 export const paramsSchema = {
   Image: {
