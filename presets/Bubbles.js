@@ -1,6 +1,6 @@
 // Based on QRBTF's Bubble style
 // https://github.com/CPunisher/react-qrbtf/blob/master/src/components/QRBubble.tsx
-import { Module, getSeededRand } from "https://qrframe.kylezhe.ng/utils.js";
+import { Module, getSeededRand } from "https://gm-grframe.vercel.app/utils.js";
 
 export const paramsSchema = {
   Margin: {
