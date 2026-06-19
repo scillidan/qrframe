@@ -84,7 +84,7 @@ export function QrContextProvider(props: { children: JSX.Element }) {
   const [initDone, setInitDone] = createSignal(false);
 
   if (!isServer) {
-    init().then(() => {
+    init(`${import.meta.env.BASE_URL}_build/assets/fuqr_bg.wasm`).then(() => {
       setInitDone(true);
     });
   }
