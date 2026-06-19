@@ -10,6 +10,7 @@ export default defineConfig({
     },
   },
   ssr: true,
+  base: "/qrframe/",
   vite: {
     plugins: [UnoCSS(), wasmpack([], ["fuqr"]), blobRewriter()],
   },
