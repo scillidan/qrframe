@@ -1,4 +1,4 @@
-import { Module } from "https://gm-qrframe.vercel.app/utils.js";
+import { Module } from "https://scillidan.github.io/qrframe/utils.js";
 
 export const paramsSchema = {
   Margin: {

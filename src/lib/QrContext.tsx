@@ -72,7 +72,7 @@ export const QrContext = createContext<{
 
 export function QrContextProvider(props: { children: JSX.Element }) {
   const [inputQr, setInputQr] = createStore<InputQr>({
-    text: "https://gm-qrframe.vercel.app",
+    text: "https://scillidan.github.io/qrframe",
     minVersion: 1,
     strictVersion: false,
     minEcl: ECL.Low,

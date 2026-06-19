@@ -1,4 +1,4 @@
-import { Module, getSeededRand } from "https://gm-qrframe.vercel.app/utils.js";
+import { Module, getSeededRand } from "https://scillidan.github.io/qrframe/utils.js";
 import rough from "https://esm.sh/roughjs";
 
 export const paramsSchema = {
